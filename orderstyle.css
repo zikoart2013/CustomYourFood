@@ -287,7 +287,23 @@ button {
   background-color:whitesmoke;
   box-shadow: 5px 5px #5f5f5f;
 }
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px){
+  .textheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -20px;
+    font-size: 40px;
+    left: 120px;
+    font-family: 'Yellowtail', cursive;
+    color: aliceblue;
+    max-width: 200px;
+  }
 
+}
 
 @media only screen 
 and (min-device-width : 768px) 
