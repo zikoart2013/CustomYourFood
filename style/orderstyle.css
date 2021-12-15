@@ -1,0 +1,415 @@
+
+body{
+margin: 0px;
+padding: 0px;
+background-color: #444444;
+background-image: url(.//resourse/Texture.png);
+ 
+}
+/*selector BUN*/
+.bun{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  position: absolute;
+  top: 260px;
+  left: 200px;
+  line-height: 40px;
+
+}
+.textheader{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 60px;
+  font-size: 60px;
+  font-family: 'Yellowtail', cursive;
+  color: aliceblue;
+}
+.textheader h3{
+  max-width: 300px;
+}
+.textheader span{
+  color: rgb(228, 66, 66);
+   font-size: 50px;
+   font-family: 'Arvo', serif;
+   position: relative;
+   left: 80px;
+   bottom: 30px;
+}
+.bun h3{
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 66, 66);
+  position: relative;
+  bottom: 20px;
+
+}
+
+/*selector Meat*/
+.meat{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  position: absolute;
+  top: 260px;
+  left: 430px;
+  line-height: 40px;
+
+}
+.meat h3{
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 66, 66);
+  position: relative;
+  bottom: 20px;
+}
+/*.....Selectro Chesse.............*/
+.cheese{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  position: absolute;
+  top: 260px;
+  left: 655px;
+  line-height: 40px;
+}
+.cheese h3{
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 66, 66);
+  position: relative;
+  bottom: 20px;
+}
+.cheese  label{
+  position: relative;
+  bottom: 20px;
+}
+.cheese  input{
+  position: relative;
+  bottom: 20px;
+}
+
+/*Selector salata*/
+.salad{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  position: absolute;
+  top: 260px;
+  left: 880px;
+  line-height: 40px;
+}
+.salad h3{
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 66, 66);
+  position: relative;
+  bottom: 20px;
+}
+.salad label{
+  position: relative;
+  bottom: 45px;
+}
+.salad input{
+  position: relative;
+  bottom: 45px;
+}
+/*sauce*/
+
+.sauce{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  position: absolute;
+  top: 260px;
+  left: 1100px;
+  line-height: 40px;
+}
+.sauce h3{
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 66, 66);
+  position: relative;
+  bottom: 20px;
+}
+.sauce label{
+  position: relative;
+  bottom: 45px;
+}
+.sauce input{
+  position: relative;
+  bottom: 45px;
+}
+.btn2{
+  max-height: 70px;
+  position: relative;
+  top: 220px;
+  left: 700px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+button a{
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: brown;
+}
+button{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  border-radius: 18px;
+  position: relative;
+  bottom: 350px;
+  left: 40px;
+  background-color:whitesmoke;
+  box-shadow: 5px 5px #5f5f5f;
+}
+
+/*Iphone X, Galaxy5, Pixel2,++*/ 
+@media only screen and (max-width: 600px) {
+  .bun{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    line-height: 40px;
+  }
+  .meat{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 480px;
+    left: 100px;
+    line-height: 40px;
+  }
+
+  .salad{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 1140px;
+    left: 100px;
+    line-height: 40px;
+  }
+
+  .sauce{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 920px;
+    left: 100px;
+    line-height: 40px;
+  }
+  .cheese{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    line-height: 40px;
+  }
+  .btn2{
+    max-height: 70px;
+    position: relative;
+    top: 1130px;
+    left: 140px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .textheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -20px;
+    font-size: 40px;
+    left: 100px;
+    font-family: 'Yellowtail', cursive;
+    color: aliceblue;
+    max-width: 200PX;
+  }
+  .textheader span{
+    color: rgb(228, 66, 66);
+     font-size: 40px;
+     font-family: 'Arvo', serif;
+     position: relative;
+     left: 40px;
+     bottom: 10px;
+  }
+}
+button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  border-radius: 18px;
+  position: relative;
+  bottom: 250px;
+  left: 40px;
+  background-color:whitesmoke;
+  box-shadow: 5px 5px #5f5f5f;
+}
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px){
+  .textheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -20px;
+    font-size: 40px;
+    left: 120px;
+    font-family: 'Yellowtail', cursive;
+    color: aliceblue;
+    max-width: 200px;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+  .bun{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 260px;
+    left: 300px;
+    line-height: 40px;
+  }
+  .meat{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 480px;
+    left: 300px;
+    line-height: 40px;
+  }
+
+  .salad{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 1140px;
+    left: 300px;
+    line-height: 40px;
+  }
+
+  .sauce{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 920px;
+    left: 300px;
+    line-height: 40px;
+  }
+  .cheese{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    line-height: 40px;
+  }
+  .btn2{
+    max-height: 70px;
+    position: relative;
+    top: 1130px;
+    left: 340px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .textheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -20px;
+    font-size: 40px;
+    left: 50px;
+    font-family: 'Yellowtail', cursive;
+    color: aliceblue;
+  }
+  .textheader span{
+    color: rgb(228, 66, 66);
+     font-size: 40px;
+     font-family: 'Arvo', serif;
+     position: relative;
+     left: 40px;
+     bottom: 10px;
+  }
+}
+button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  border-radius: 18px;
+  position: relative;
+  bottom: 250px;
+  left: 40px;
+  background-color:whitesmoke;
+  box-shadow: 5px 5px #5f5f5f;
+}
+
