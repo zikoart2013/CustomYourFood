@@ -14,7 +14,7 @@
           event.stopPropagation()
         }
         form.classList.add('was-validated')
-        window.open("thanks.html"); //???//
+
         
       }, false)
       
