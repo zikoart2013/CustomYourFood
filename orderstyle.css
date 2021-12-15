@@ -264,9 +264,10 @@ button{
     position: relative;
     bottom: -20px;
     font-size: 40px;
-    left: 50px;
+    left: 100px;
     font-family: 'Yellowtail', cursive;
     color: aliceblue;
+    max-width: 200PX;
   }
   .textheader span{
     color: rgb(228, 66, 66);
