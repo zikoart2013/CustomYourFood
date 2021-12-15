@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./orderstyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Oswald&family=Yellowtail&display=swap" rel="stylesheet">  <link rel="stylesheet" href="/home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
+ <script src="/scriptOrder.js"></script>
+  <title>Order</title>
+
+</head>
+<body>
+
+  <div class="textheader">
+  <h3>Custom your <span>FOOD</span></h3>
+</div>
+
+<div class="content">
+
+  <div class="bun">
+    <h3>Bun</h3> 
+     <!-- DE MODIFICAT -->
+    <form action="">
+  <input type="radio" id="bun1" name="type1" value="Bun fluffy" price="2">
+  <label for="type1"> Bun fluffy- 2$ </label><br>
+  <input type="radio" id="bun2" name="type1" value="Bun crisp " price="6">
+  <label for="type2">Bun crisp- 6$</label><br>
+  <input type="radio" id="bun3" name="type1" value="Bun soft"price="4">
+  <label for="type3">Bun soft- 4$</label>
+    </form>
+  </div>
+
+  <div class="meat">
+    <h3>Meat</h3>
+    <form action="">
+  <input type="radio" id="meat1" name="type2" value="Chicken"price="7">
+  <label for="type1"> Chicken- 7$</label><br>
+  <input type="radio" id="meat2" name="type2" value="Steak" price="9">
+  <label for="type2">Steak- 9$</label><br>
+    </form>
+  </div>
+
+  <!--branza-->
+  <div class="cheese">
+    <h3>Cheese</h3>
+    <form action="">
+  <input type="radio" id="cheese1" name="type3" value="Chedar" price="6">
+  <label for="type1"> Chedar- 6$ </label><br>
+  <input type="radio" id="cheese2" name="type4" value="Emmental" price="6">
+  <label for="type2">Emmental- 6$</label><br>
+  <input type="radio" id="cheese3" name="type5" value="Edam" price="6"> 
+  <label for="type2">Edam- 6$</label><br>
+    </form>
+  </div>
+
+  <div class="salad">
+    <h3>Salad</h3>
+    <form action="">
+  <input type="radio" id="salad1" name="type6" value="Salad" price="2">
+  <label for="type1"> Salad- 2$</label><br>
+  <input type="radio" id="salad2" name="type7" value="Tomatos"price="2">
+  <label for="type2">Tomatos- 2$</label><br>
+  <input type="radio" id="salad3" name="type8" value="Pickles"price="3">
+  <label for="type2">Pickles- 3$</label><br>
+  <input type="radio" id="salad4" name="type9" value="Onions" price="1">
+  <label for="type2">Onions- 1$</label><br>
+    </form>
+  </div>
+  
+  <div class="sauce">
+    <h3>sauce</h3>
+    <form action="">
+  <input type="radio" id="souce1" name="type10" value="Ketchup" price="6">
+  <label for="type1"> Ketchup- 6$</label><br>
+  <input type="radio" id="souce2" name="type11" value="Garlic" price="2">
+  <label for="type2">Garlic- 2$</label><br>
+  <input type="radio" id="souce3" name="type12" value="BBQ" price="3">
+  <label for="type2">BBQ- 3$</label><br>
+  <input type="radio" id="salad4" name="type13" value="SPECIAL" price="6">
+  <label for="type2">SPECIAL- 6$</label><br>
+    </form>
+  </div>
+</div>
+
+  <button class="btn2" onclick= "toCheckout()">Checkout</button>
+
+  <button class="btn3"><a href="./index.html">Back</button>
+
+
+</body>
+</html>
