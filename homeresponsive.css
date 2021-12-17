@@ -272,7 +272,7 @@
       border-radius: 18px;
       position: relative;
       bottom: 40px;
-      left: 190px;
+      left: 10px;
       background-color:whitesmoke;
       box-shadow: 5px 5px #5f5f5f;
       font-family: 'Oswald', sans-serif;
@@ -400,6 +400,5 @@
       font-family: 'Arvo', serif;
       color: aliceblue;
 
-}
-  }
-  }
+    }
+  }}
