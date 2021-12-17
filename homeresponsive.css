@@ -272,7 +272,7 @@
       border-radius: 18px;
       position: relative;
       bottom: 40px;
-      left: 10px;
+      left: 110px;
       background-color:whitesmoke;
       box-shadow: 5px 5px #5f5f5f;
       font-family: 'Oswald', sans-serif;
@@ -372,7 +372,7 @@
       border-radius: 18px;
       position: relative;
       top: 30px;
-      left: 145px;
+      left: 120px;
       background-color:whitesmoke;
       box-shadow: 5px 5px #5f5f5f;
       font-family: 'Oswald', sans-serif;
@@ -387,7 +387,7 @@
     }
     .icons{
       position: relative;
-      left: 140px;
+      left: 120px;
       top:60px;
     }
     .site{
